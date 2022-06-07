@@ -12,3 +12,4 @@
 *.vsix
 
 main.parameters.json
+.azure

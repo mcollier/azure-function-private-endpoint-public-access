@@ -314,7 +314,7 @@ resource functionApp 'Microsoft.Web/sites@2021-03-01' = {
     serverFarmId: functionPlan.id
     reserved: false
     siteConfig: {
-      // publicNetworkAccess: 'Enabled'
+      publicNetworkAccess: 'Enabled'
       vnetRouteAllEnabled: false
       functionsRuntimeScaleMonitoringEnabled: false
       linuxFxVersion: json('null')
@@ -344,13 +344,6 @@ resource functionApp 'Microsoft.Web/sites@2021-03-01' = {
           value: '${name}share'
         }
       ]
-    }
-  }
-
-  resource config 'config' = {
-    name: 'web'
-    properties: {
-      publicNetworkAccess: 'Enabled'
     }
   }
 }

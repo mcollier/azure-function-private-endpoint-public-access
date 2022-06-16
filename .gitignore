@@ -11,5 +11,4 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
-main.parameters.json
 .azure

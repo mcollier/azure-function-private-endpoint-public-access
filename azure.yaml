@@ -1,1 +1,2 @@
+# yaml-language-server: $schema=https://azuresdkreleasepreview.blob.core.windows.net/azd/schema/azure.yaml.json
 name: az-func-public-private-endpoint
